@@ -202,7 +202,27 @@ body{
     .left-bar  .top-bar .right{
         margin: 0 auto;
     }
+    .mid-bar .word{
+        width: 30%;
+    }
 }
+@media only screen and (max-width : 970px) {
+    .left-bar  .top-bar {
+       display: grid;
+       height: 15%;
+    }
+    .left-bar .top-bar .right{
+        margin-left: 0px;
+        padding-top: 10px;
+    }
+    .mid-bar .word{
+        width: 20%;
+    }
+    .mid-bar .refine{
+        margin-left: 10px;
+    }
+}
+
 
 /* .left-header{
     width: 60%;
