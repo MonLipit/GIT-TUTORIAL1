@@ -53,15 +53,17 @@ body{
 }
 .top-bar .right{
     display: flex;
-    width: 15%;
+    width: 25%;
     justify-content: space-between;
 }
 .top-bar .right .edit{
     text-align: center;
-    margin-right: 10px;
+    padding-right: 5px;
+    margin-left: 5px;
 }
 .top-bar .right .share{
     text-align: center;
+    padding-right: 5px;
 }
 .mid-bar {
     display: flex;
