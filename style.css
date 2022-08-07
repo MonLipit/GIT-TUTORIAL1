@@ -40,6 +40,7 @@ body{
     font-family: sans-serif;
     font-weight: normal;
     color: #424242;
+    
 }
 .top-bar .left .private{
     color: #aaa;
@@ -75,6 +76,7 @@ body{
     display: block;
     width: 45%;
 }
+
 .mid-bar .listOrder {
     width: 40%;
 }
@@ -189,9 +191,18 @@ body{
 
 
 
-
-
-
+@media only screen and (max-width : 1788px){
+    .bot-bar .watch-list .text-2{
+       
+       /* margin-left: 10px; */
+       text-align: center;
+    }
+}
+@media only screen and (max-width : 1250px) {
+    .left-bar  .top-bar .right{
+        margin: 0 auto;
+    }
+}
 
 /* .left-header{
     width: 60%;
